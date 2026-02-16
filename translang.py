@@ -10,10 +10,9 @@ import google.generativeai as genai
 load_dotenv()
 
 # You can store API key in .env instead (recommended)
-# api_key = os.getenv("GOOGLE_API_KEY")
-
+api_key = os.getenv("GOOGLE_API_KEY")
 # Using directly (from your screenshot)
-api_key = "AIzaSyD-o13DSoBV-G6mUatUvwYPQfnOlfs5jz0"
+
 genai.configure(api_key=api_key)
 
 
